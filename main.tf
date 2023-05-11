@@ -39,8 +39,5 @@ resource "aws_instance" "ubuntu" {
     BACKUPPLAN = "none"
     CONTACT-APP = ""
     SITE = "use"
-
-
-
   }
 }
