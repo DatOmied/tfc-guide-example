@@ -27,5 +27,20 @@ resource "aws_instance" "ubuntu" {
 
   tags = {
     Name = var.instance_name
+    COSTCENTER = ""
+    MANAGED = "modec"
+    ENTITY = "mii"
+    APPLICATION	= ""
+    CONTACT-INFRA	= ""
+    DESCRIPTION	= ""
+    PROJECT	= "ies-infra"
+    FUNCTION = ""
+    LANDSCAPE = "sandbox"
+    BACKUPPLAN = "none"
+    CONTACT-APP = ""
+    SITE = "use"
+
+
+
   }
 }
